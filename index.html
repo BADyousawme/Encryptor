@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure text</title>
+</head>
+<body>
+    <video
+      autoplay
+      loop
+      muted
+      src="video.mp4"
+    ></video>
+    <div class="container">
+        <div class="glow">
+            <h1>Text Encryptor</h1>
+        </div>
+        
+        <label for="message">Message : </label>
+        <textarea  id="message" cols="50" rows="5">Enter your text here</textarea>
+        <label for="key">Key : </label>
+        <input type="text" id="key" size="50">
+        <div class="button">
+            <button id="en-btn">Encrypt</button>
+            <button id="de-btn">Decrypt</button>
+        </div>
+        <h2>Result :</h2>
+        <div id="result">
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
